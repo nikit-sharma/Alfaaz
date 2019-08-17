@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href = "login.css" type = "text/css" rel = "stylesheet" >   
+        
+    </head>
+    <body>
+            <div id="navbar">  
+                    <table id="navtable">
+                        <tr>
+                            <th><a href="try.html" target="_self" class="nav">Home</a></th>
+                            <th><a href="about.html" target="_self" class="nav">About</a></th>
+                            <th><a href="#footer"  class="nav">Contact</a></th>
+                            <th><a href="login.html" target="_self" class="nav">Login</a></th>
+                            <th><a href="signup.html" target="_self" class="nav">Signup</a></th>
+                        </tr>
+                    </table>
+                </div>
+        <div class = "parent" >
+            <div class = "child" >
+                <b><h1>Login</h1></b>
+                <form>
+                    <table>
+                        <tr>
+                            <h3><td><label for = "username" >Username</label></td></h3>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" id = "username" name = "user" required></td>
+                        </tr>
+                        <tr>
+                            <h3><td><label for = "password" >Password</label></td></h3>
+                        </tr>
+                        <tr> 
+                            <td><input type = "password" id = "password" minlength = "4" maxlength = "10" name = "pass" required></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <input type = "submit" value = "Sign in" id = "submit">
+                </form>
+                 <br>
+                <center><h4>Not a member ? <a href="signup.html" target = "#">Sign Up</a></h4></center>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+                <a name="footer"></a>
+                <p>Website made by : Naveen Garg (1710991510) , Nikit Sharma (1710991527)</p>
+                <p>Contact information :  <a href="mailto:gargnaveen1907@gmail.com" id="footer">
+                        gargnaveen1907@gmail.com</a>, <a href="mailto:nikitsharma798@gmail.com" id="footer">
+                    nikitsharma798@gmail.com</a> </p>
+                <p>Mobile Number : 12345689 </p>
+            </footer>
+    </body>
+    <script src = 'login.js' type = 'text/javascript'></script>
+</html>

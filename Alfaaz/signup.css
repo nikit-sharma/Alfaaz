@@ -1,0 +1,80 @@
+.parent
+{
+    border-radius: 12px;
+    text-align: center;
+    margin-block-start: 6%;
+    width: 22%;
+    margin-inline-start: 40%;
+    height: 490px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+}
+h1
+{
+    font-family: Kaushan Script ;
+    font-weight: 600;
+    color: rgb(248, 217, 217);
+    font-size: 45px;
+}
+.child
+{
+    display: inline-block;
+}
+body
+{
+    background-image: url("typewriter.jpg");
+}
+td
+{
+    font-family: Kaushan Script ;
+    color:wheat;
+    font-size: 20px;
+}
+input[type=submit]
+{
+    background-color: rgb(255, 248, 235);
+    border: none;
+    color: rgb(196, 132, 132);
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+h4
+{
+    color:rgb(243, 236, 224);
+}
+html
+{
+    overflow: hidden;
+}
+/*  Navigation Bar Styling */
+#navtable{
+    width:100%;
+}
+  .nav{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: Ink Free Regular;
+    text-decoration: none;
+  }
+  .nav:hover{
+    color: white;
+  }
+  #navbar{
+      height: 30px;
+    background-image: url("navbar1.jpg");
+  }
+  
+  /* Footer Styling */
+  footer{
+    background-color: black;
+    color: wheat;
+    font-family: Ink Free Regular;
+    font-size: 20px;
+  }
+  a#footer{
+    color: wheat;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,39 @@
+body{
+    
+    background-image:url("cup.jpg");
+}
+/*  Navigation Bar Styling */
+#navtable{
+    width:100%;
+  }
+  .nav{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: Ink Free Regular;
+    text-decoration: none;
+  }
+  .nav:hover{
+    color: white;
+  }
+  #navbar{
+      height: 70px;
+    background-image: url("navbar1.jpg");
+  }
+  
+  /* Footer Styling */
+  footer{
+    background-color: black;
+    color: wheat;
+    font-family: Ink Free Regular;
+    font-size: 20px;
+  }
+  a#footer{
+    color: wheat;
+    text-decoration: none;
+  }
+  
+  p#para,h1{
+      font-family: Ink Free Regular;
+      font-size: 35px;
+      align: center;
+  }
